@@ -1,11 +1,19 @@
 ﻿{
-  "dev": {
-    "driver": "mysql",
-    "user": "root",
-    "database": "_autokomis",
-    "password": "",
-    "port":  "3306"
-  },
+    "dev": {
+        "driver": "mysql",
+        "user": "root",
+        "database": "_autokomis",
+        "password": "",
+        "port": "3306"
+    },
+
+    "dev2": {
+        "driver": "postgres",
+        "user": "root",
+        "database": "_autokomis",
+        "password": "",
+        "port":  "3306"
+    },
  
   "production": {
     "driver": "mysql",

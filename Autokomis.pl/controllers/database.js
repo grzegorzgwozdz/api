@@ -1,4 +1,4 @@
-﻿var env = "dev";
+﻿var env = "dev2";
 var config = require('./database.json')[env];
 var Sequelize = require('sequelize')
   , sequelize = new Sequelize(
