@@ -9,16 +9,17 @@
 
     "dev2": {
         "driver": "postgres",
-        "user": "root",
-        "database": "_autokomis",
-        "password": "",
-        "port":  "3306"
+        "host":  "ec2-54-225-101-18.compute-1.amazonaws.com",
+        "user": "yglyfsfydfcvxd",
+        "database": "d5hutrus609ghd",
+        "password": "g9AP64VRAvOH5FDrcRAPT8QYn1",
+        "port":  "5432"
     },
  
-  "production": {
-    "driver": "mysql",
-    "user": "root",
-    "database": "autokomis",
-    "password":  ""
+    "production": {
+        "driver": "mysql",
+        "user": "root",
+        "database": "autokomis",
+        "password":  ""
   }
 }

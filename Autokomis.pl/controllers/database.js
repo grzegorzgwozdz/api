@@ -1,11 +1,13 @@
 ﻿var env = "dev2";
 var config = require('./database.json')[env];
+
 var Sequelize = require('sequelize')
   , sequelize = new Sequelize(
         config.database, 
         config.user, 
         config.password, 
         {
+            host: config.host,
             dialect: config.driver,
             port: config.port,
         });
