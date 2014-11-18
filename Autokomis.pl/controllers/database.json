@@ -1,0 +1,16 @@
+﻿{
+  "dev": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "_autokomis",
+    "password": "",
+    "port":  "3306"
+  },
+ 
+  "production": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "autokomis",
+    "password":  ""
+  }
+}
