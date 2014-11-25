@@ -14,6 +14,7 @@ exports.postUser = function (req, res) {
         Name: req.body.Name
     }).save()
     .then(function (data) {
+            console.log(req.body)
             res.json(data);
         }).catch(function (err) {
             res.json(err);

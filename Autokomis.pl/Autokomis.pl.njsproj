@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3aef5a80-623d-49d4-a896-c1f360e24b5e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>app.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -58,7 +58,7 @@
     <Compile Include="models\picturegalleries.js" />
     <Compile Include="models\user.js" />
     <Compile Include="routes\api.js" />
-    <Compile Include="server.js" />
+    <Compile Include="app.js" />
     <Content Include="controllers\database.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />

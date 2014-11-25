@@ -1,4 +1,4 @@
-﻿var env = "dev2";
+﻿var env = "dev";
 var config = require('./database.json')[env];
 
 var Sequelize = require('sequelize')
@@ -38,7 +38,7 @@ sequelize
     });
 
 sequelize
-  .sync({ force: false })
+  .sync({ force: true })
   .complete(function (err) {
         if (!!err) {
             console.log('An error occurred while creating the table:', err)

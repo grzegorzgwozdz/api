@@ -21,4 +21,6 @@ CarOffer.belongsTo(CarsData);
 var CarStatus = require('./carstatus.js').CarStatuses;
 CarOffer.belongsTo(CarStatus)
 var Payment = require('./payment.js').Payments;
-CarOffer.belongsTo(Payment)
+CarOffer.belongsTo(Payment);
+var PictureGallery = require('./picturegalleries').PictureGalleries;
+CarOffer.belongsTo(PictureGallery);

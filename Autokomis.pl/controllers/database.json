@@ -7,13 +7,21 @@
         "port": "3306"
     },
 
-    "dev2": {
-        "driver": "postgres",
-        "host":  "ec2-54-225-101-18.compute-1.amazonaws.com",
-        "user": "yglyfsfydfcvxd",
-        "database": "d5hutrus609ghd",
-        "password": "g9AP64VRAvOH5FDrcRAPT8QYn1",
-        "port":  "5432"
+    "dev3": {
+        "driver": "mysql",
+        "user": "gorsky",
+        "database": "_autokomis",
+        "password": "gorsky",
+        "port": "3306"
+    },
+
+    "devil": {
+        "driver": "mysql",
+        "host":  "mysql3.mydevil.net",
+        "user": "m1332_gorsky",
+        "database": "m1332_autokomis",
+        "password": "Gorsky1",
+        "port": "3306"
     },
  
     "production": {

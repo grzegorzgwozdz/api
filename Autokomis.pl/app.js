@@ -8,6 +8,6 @@ var app = express();
 
 app.use(bodyParser());
 app.use('/api', api);
-app.listen(1337);
+app.listen(3000);
 
 module.exports = app;
